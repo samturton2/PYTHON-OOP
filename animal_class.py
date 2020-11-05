@@ -10,16 +10,28 @@ class Animal:
 
     # create behaviours
     def breathe(self):
-        return "keep breathing to stay alive"
+        if self.alive == True:
+            return "keep breathing to stay alive"
+        else:
+            return "You are dead"
 
     def move(self):
-        return "left to right and up and down"
+        if self.alive == True:
+            return "left to right and up and down"
+        else:
+            return "You are dead"
 
     def eat(self):
-        return "nom nom nom"
+        if self.alive == True:
+            return "nom nom nom"
+        else:
+            return "You are dead"
 
     def procreate(self):
-        return "find partner"
+        if self.alive == True:
+            return "find partner"
+        else:
+            return "You are dead"
 
 # # instantiate our class/ create an object
 # cat = Animal() # creating an object of Animal class

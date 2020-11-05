@@ -17,9 +17,6 @@ class Reptile(Animal):
     def hunt(self):
         return "get me some scran"
 
-    def use_venom(self):
-        return "POISON"
-
 # # Let's create an object of our reptile class to utilise the amazing functionalities of OOP
 # reptile_object = Reptile()
 #
@@ -28,5 +25,4 @@ class Reptile(Animal):
 # print(reptile_object.procreate())
 # print("the above functionalities are inherited from our Animal/ Parent class")
 #
-# print(reptile_object.use_venom())
 # print(reptile_object.hunt())
