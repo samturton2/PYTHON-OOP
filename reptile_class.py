@@ -17,12 +17,13 @@ class Reptile(Animal):
     def hunt(self):
         return "get me some scran"
 
-# # Let's create an object of our reptile class to utilise the amazing functionalities of OOP
-# reptile_object = Reptile()
-#
-# print(reptile_object.eat())
-# print(reptile_object.breathe())
-# print(reptile_object.procreate())
-# print("the above functionalities are inherited from our Animal/ Parent class")
-#
-# print(reptile_object.hunt())
+if __name__ == "__main__":
+    # Let's create an object of our reptile class to utilise the amazing functionalities of OOP
+    reptile_object = Reptile()
+
+    print(reptile_object.eat())
+    print(reptile_object.breathe())
+    print(reptile_object.procreate())
+    print("the above functionalities are inherited from our Animal/ Parent class")
+
+    print(reptile_object.hunt())

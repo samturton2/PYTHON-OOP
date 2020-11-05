@@ -19,9 +19,10 @@ class Python(Snake):
     def shed_skin(self):
         return "look at my new skin!"
 
-python_object = Python()
+if __name__ == "__main__":
+    python_object = Python()
 
-print(python_object.breathe()) # function from animal class
-print(python_object.hunt()) # function from reptile class
-print(python_object.use_venom()) # function from snake class
-print(python_object.shed_skin()) # function from python class
+    print(python_object.breathe()) # function from animal class
+    print(python_object.hunt()) # function from reptile class
+    print(python_object.use_venom()) # function from snake class
+    print(python_object.shed_skin()) # function from python class

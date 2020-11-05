@@ -33,7 +33,8 @@ class Animal:
         else:
             return "You are dead"
 
-# # instantiate our class/ create an object
-# cat = Animal() # creating an object of Animal class
-# # cat as child inherits everything everything from Animal/ parent class
-# print(cat.eat())
+if __name__ == "__main__":
+    # instantiate our class/ create an object
+    cat = Animal() # creating an object of Animal class
+    # cat as child inherits everything everything from Animal/ parent class
+    print(cat.eat())
